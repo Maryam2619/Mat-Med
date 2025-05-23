@@ -1,0 +1,160 @@
+body {
+    background: linear-gradient(to right, #f7f7f7, #e8f5e9);
+}
+
+.navbar {
+  background-color: #00ad5f;
+  border: 2px solid transparent;
+  min-height: 60px; 
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.18);
+}
+.navbar .navbar-brand img {
+max-width: 100px;
+/* height: 120px; */
+/* width: ; */
+}
+.navbar .navbar-nav .nav-item .nav-link{
+color: black !important;
+font-weight: 300 !important;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+color: #00ad5f !important;
+}
+@media screen and (min-width: 1200px) {
+.navbar {
+  letter-spacing: 0.05em;
+}
+.navbar-collapse .navbar-nav .nav-link {
+  padding: 0.2em 1em;
+}
+.navbar .navbar-brand img {
+  max-width: 7em;
+}
+}
+@media screen and (min-width: 768px) {
+.navbar .navbar-brand img {
+  max-width: 6em;
+}
+.navbar-collapse {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+.search-and-icons,
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.search-and-icons {
+  width: 70%;
+}
+.navbar form {
+  flex: 1;
+}
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+color: #000;
+}
+.contact-info p {
+justify-content: center;
+font-size: 0.8em;
+padding-right: 1em;
+color: #000;
+}
+.contact-info a {
+color: #000;
+text-decoration: underline;
+}
+.user-icons div {
+padding-right: 1em;
+font-size: 1.2em;
+color: #000;
+}
+     .hero {
+            background: #009451;;
+            color: white;
+            padding-top: 80px;
+            padding-bottom: 50px;
+        }
+        .remedy-card{
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .carousel img {
+            border-radius: 10px;
+        }
+        .accordion-button {
+            background-color: #007bff;
+            color: white;
+        }
+
+        #symptomInput input[type="text"] {
+          border: 1px solid #ccc;
+          border-radius: 4px;
+      }
+      .check-btn{
+          background: #4CAF50;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+      .check-btn:hover {
+          background: #45a049;
+      }
+      .match-card{
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+.footer {
+    background: #009451; /* Light grey background */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-line {
+    border: none;
+    height: 2px;
+    background: #28a745; /* Green color */
+    opacity: 0.8;
+    width: 80%;
+    margin: auto;
+  }
+  
+  
+  
+  .footer-links {
+    margin: 10px 0;
+  }
+  
+  .footer-links a {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-links a:hover {
+    color: white; /* Darker green on hover */
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer p:hover {
+    color: white;
+  }
